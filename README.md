@@ -9,22 +9,32 @@
 - 使用flex实现自适应布局，使用sass编写组件样式
 <br />
 
-## Project setup
-```
-npm install
-```
+## 项目功能
+- 天气查询
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200422205621500.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0xvcmllbm4=,size_16,color_FFFFFF,t_70)
+- 热点新闻
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200422205702600.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0xvcmllbm4=,size_16,color_FFFFFF,t_70)
+- 个人中心
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200422205720260.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0xvcmllbm4=,size_16,color_FFFFFF,t_70)
+<br />
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 项目说明
+1.```cnpm install```安装所有模块依赖
 
-### Compiles and minifies for production
-```
-npm run build
-```
+2.```npm run serve```开发环境下启动项目
 
-### Lints and fixes files
+3.【注意】若需使用**登录/注册**功能，需先配置环境：
+- 构建PHPnow集成环境
+> PHPnow集成安装包下载地址： http://servkit.org/download <br />
+> PHPnow安装教程：https://jingyan.baidu.com/article/ad310e80ea8acb1849f49eb8.html
+
+- 在phpMyAdmin创建数据库如下（默认用户名和密码见php文件）
+```sql
+CREATE DATABASE `weather`;
+CREATE TABLE `weather`.`users` (
+`id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`username` VARCHAR( 50 ) NOT NULL ,
+`password` VARCHAR( 50 ) NOT NULL 
+) ENGINE = MYISAM CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 ```
-npm run lint
-```
+- 将项目中的```public/weather```文件夹cut至本地Apache服务器的根目录下（默认端口号为80）
