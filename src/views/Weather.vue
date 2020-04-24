@@ -63,15 +63,4 @@ h3{
   text-align: center;
   color: #333;
 }
-// .ivu-input-wrapper{
-//   height: 50px;
-// }
-// .ivu-input{
-//   height: 50px !important;
-// }
-// .ivu-input-search{
-//   background: rgb(44, 180, 240) !important;
-//   border-color: rgb(44, 180, 240) !important;
-//   padding: 0 10px !important;
-// }
 </style>

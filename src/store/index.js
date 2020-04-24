@@ -22,7 +22,9 @@ export default new Vuex.Store({
       state.cityName = data
     },
     cityDataMutation (state, data) {
-      data.future.pop()
+      if (data.future) {
+        data.future.pop()
+      }
       state.cityData = data
     },
     showTabbar (state, data) {

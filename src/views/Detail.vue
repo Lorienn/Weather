@@ -76,6 +76,8 @@ export default {
     }
   },
   beforeDestroy () {
+    this.$store.commit('cityNameMutation', '')
+    this.$store.commit('cityDataMutation', [])
     this.$store.commit('showTabbar', true)
   },
   computed: {
