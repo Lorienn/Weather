@@ -37,4 +37,4 @@ CREATE TABLE `weather`.`users` (
 `password` VARCHAR( 50 ) NOT NULL 
 ) ENGINE = MYISAM CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 ```
-- 将项目中的```public/weather```文件夹cut至本地Apache服务器的根目录下（默认端口号为80）
+- 将项目中的```public/weather```文件夹**剪切**至本地Apache服务器的根目录下（默认端口号为80）
