@@ -11,11 +11,11 @@
 
 ## 项目功能
 - 天气查询<br /><br />
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200422205621500.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0xvcmllbm4=,size_16,color_FFFFFF,t_70)
+![weather](https://seanboy.club/uploads/images/2020-05-09~11-56-36~weather.jpg)
 - 热点新闻<br /><br />
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200422205702600.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0xvcmllbm4=,size_16,color_FFFFFF,t_70)
+![news](https://seanboy.club/uploads/images/2020-05-09~11-56-36~news.png)
 - 个人中心<br /><br />
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20200422205720260.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0xvcmllbm4=,size_16,color_FFFFFF,t_70)
+![center](https://seanboy.club/uploads/images/2020-05-09~11-56-36~center.jpg)
 <br />
 
 ## 项目说明
